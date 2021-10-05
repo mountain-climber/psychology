@@ -1,0 +1,42 @@
+$accent: #FAE18A;
+$main: #83C3FF;
+
+%placeholder{
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.06em;
+  color: rgba(#000, .41);
+}
+
+%leaf{
+  content: '';
+  position: absolute;
+  background-image: url('../images/decor/leaf.svg');
+  width: 50px;
+  height: 42px;
+}
+
+%montserrat-400{
+  font-family: 'Montserrat-Regular', sans-serif;
+  font-weight: 400;
+}
+
+%montserrat-400-italic{
+  font-family: 'Montserrat-Regular-Italic', sans-serif;
+  font-weight: 400;
+}
+
+%montserrat-500{
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-weight: 500;
+}
+
+%montserrat-700{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 700;
+}
+
+%montserrat-900{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+}
